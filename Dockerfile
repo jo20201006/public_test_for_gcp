@@ -21,5 +21,5 @@ COPY . ./
 #COPY ../../ ./
 
 # Run the web service on container startup.
-CMD [ "node", "src/server.js" ]
+CMD [ "node", "./src/server.js" ]
 #CMD [ "node", "../../src/server.js" ]
